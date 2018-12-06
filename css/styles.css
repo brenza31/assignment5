@@ -1,0 +1,63 @@
+
+
+
+
+
+
+html {
+    font-family: helvetica;
+    border-color: black;
+}
+
+    
+}
+header nav ul{
+    display:flex;
+    
+}
+header nav li{
+    list-style: none;
+    
+}
+a:hover{
+    color: aquamarine;
+}
+main {display:flex;
+flex-direction:column;}
+.pics{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 8px 20px 20px 20px;
+    flex-direction: row;
+}
+body{
+    background-image: url("../images/50-Beautiful-and-Minimalist-Presentation-Backgrounds-040.jpg");
+    background-size: cover;
+    display: flex
+        
+     
+        
+}
+.catgallery {
+  box-shadow: 3px 3px bisque;
+    height:;
+    background-color: bisque
+}
+.pics{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#logo {
+    box-shadow: none;
+    height: 30px;
+}
+
+@media screen and (max-width: 30rem) {
+    header, 
+    main,
+    footer,
+    form p
+}
+{ flex-direction: column}
